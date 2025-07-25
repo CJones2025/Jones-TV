@@ -1,6 +1,6 @@
 import "./shows.css";
 
-/** A navbar that allows users to choose between a list of shows */
+
 export default function ShowSelection({ shows, setSelectedShow }) {
   return (
     <nav>
@@ -10,7 +10,7 @@ export default function ShowSelection({ shows, setSelectedShow }) {
           key={show.name}
           href="#"
           onClick={(event) => {
-            event.preventDefault(); // prevent page jump
+            event.preventDefault();
             setSelectedShow(show);
           }}
         >

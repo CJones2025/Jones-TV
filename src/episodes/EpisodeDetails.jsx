@@ -1,6 +1,5 @@
 import "./episodes.css";
 
-/** Details about the selected episode */
 export default function EpisodeDetails({ episode }) {
   if (!episode) {
     return (
